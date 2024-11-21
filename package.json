@@ -1,0 +1,74 @@
+{
+  "name": "@syncfusion/ej2-react-document-explorer",
+  "version": "1.0.0",
+  "description": "Essential JS 2 for React - Document Explorer",
+  "author": "Syncfusion Inc.",
+  "license": "SEE LICENSE IN license",
+  "scripts": {
+   "start": "react-scripts start",
+   "build": "CI=false react-scripts build && mkdir dist && mv build/** ./dist",
+   "ci-publish": "gulp publish-sample",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@syncfusion/ej2": "*",
+    "@syncfusion/ej2-angular-base": "*",
+    "@syncfusion/ej2-angular-navigations": "*",
+    "@syncfusion/ej2-base": "*",
+    "@syncfusion/ej2-buttons": "*",
+    "@syncfusion/ej2-data": "*",
+    "@syncfusion/ej2-grids": "*",
+    "@syncfusion/ej2-inputs": "*",
+    "@syncfusion/ej2-layouts": "*",
+    "@syncfusion/ej2-lists": "*",
+    "@syncfusion/ej2-navigations": "*",
+    "@syncfusion/ej2-popups": "*",
+    "@syncfusion/ej2-react-base": "*",
+    "@syncfusion/ej2-react-buttons": "*",
+    "@syncfusion/ej2-react-documenteditor": "*",
+    "@syncfusion/ej2-react-filemanager": "*",
+    "@syncfusion/ej2-react-grids": "*",
+    "@syncfusion/ej2-react-image-editor": "*",
+    "@syncfusion/ej2-react-navigations": "*",
+    "@syncfusion/ej2-react-pdfviewer": "*",
+    "@syncfusion/ej2-react-popups": "*",
+    "@syncfusion/ej2-react-spreadsheet": "*",
+    "@syncfusion/ej2-splitbuttons": "*",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.91",
+    "@types/react": "^18.2.71",
+    "@types/react-dom": "^18.2.22",
+    "install": "^0.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@syncfusion/ej2-showcase-helper": "*",
+    "react-router-dom": "^6.22.3"
+  }
+}
